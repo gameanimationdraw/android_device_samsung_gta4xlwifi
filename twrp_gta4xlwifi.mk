@@ -27,11 +27,11 @@ TARGET_SCREEN_HEIGHT := 2000
 TARGET_SCREEN_WIDTH := 1200
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/twrp/config/common_full_tablet_wifionly.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := gta4xlwifi
-PRODUCT_NAME := lineage_gta4xlwifi
+PRODUCT_NAME := twrp_gta4xlwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-P610
 PRODUCT_MANUFACTURER := samsung
